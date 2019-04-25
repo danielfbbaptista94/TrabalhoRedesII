@@ -27,7 +27,7 @@ public class InternetConnection
             {
                 System.out.println("Connecting to the WizardNumber... ");
                 try {
-                    java.awt.Desktop.getDesktop().browse(new URI("file:///C:/Users/danie/OneDrive/Desktop/NumberWizard/index.html"));
+                    java.awt.Desktop.getDesktop().browse(new URI("http://jogueaqui.ig.com.br/jogos-online.php?jogo=pacman"));
                 } catch (URISyntaxException | IOException ex) {
                     System.out.println("Pagina não localizada!");
                 }
